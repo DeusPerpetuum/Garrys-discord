@@ -1,0 +1,24 @@
+{
+  "name": "linked-role-bot",
+  "version": "1.0.0",
+  "private": "true",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "description": "Integration which helps you link discord linked roles to garrys'mod",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "register": "node src/register.js"
+  },
+  "keywords": [],
+  "author": "DeusPerpetuum",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
