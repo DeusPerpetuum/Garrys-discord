@@ -4,6 +4,6 @@ concommand.Add('1', function()
 end)
 
 net.Receive('key', function (lenght)
-    --rewrite this how you needs
+    --rewrite this how you needs 
     chat.AddText(net.ReadString())
 end)
